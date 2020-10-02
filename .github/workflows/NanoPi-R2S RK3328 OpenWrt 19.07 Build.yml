@@ -93,7 +93,7 @@ jobs:
           git clone https://github.com/NateLol/luci-app-oled
           
           git clone https://github.com/songchenwen/openwrt-package.git
-          mv openwrt-package/lienol/luci-app-passwall ./lienol/luci-app-passwall
+          mv openwrt-package/lienol/luci-app-passwall .
           rm -rf openwrt-package
           
 #       - name: Install Clash Binaries
